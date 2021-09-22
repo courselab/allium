@@ -14,6 +14,17 @@ A few tips to make your contribution more effective.
 * Discuss with the community before staring your contribution.
 * When submitting issues provide enough details.
 
+Project tree
+-----------------------------
+
+The project tree is organized as follows:
+
+* `allium`    source code
+* `doc`       documentation
+* `test`      test programs
+* `lib`       non-installable libraries
+* `sandbox`   for trying/showing ideias
+
 Project development workflow
 -----------------------------
 
