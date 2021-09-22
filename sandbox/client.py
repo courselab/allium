@@ -5,7 +5,7 @@
 import socket
 
 HOST = '127.0.0.1'  # Connect to this IP
-PORT = 65432        # at this port
+PORT = 5555         # at this port
 
 # Create a TCP socket to connect to server
 

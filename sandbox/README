@@ -1,5 +1,5 @@
 In this diretory:
 
- * server.py		an example of cuncurrent TCP server
+ * server.py		an example of TCP server
  * client.py		an example of TCP client
 

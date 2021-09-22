@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #
-# Example of a multithreaded concurrent internet server in Phython.
+# Example of an internet server in Phython.
 
 
 import socket       # Socket API
