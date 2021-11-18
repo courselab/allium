@@ -21,6 +21,18 @@ def main():
 
     if "-f" in opts:
         torrent_created = create_torrent(args, '')
+    elif "--psize" in opts:
+        tor = read_tor_file(args[0])
+        psize = calculate_piece_size(tor)
+        print(f'The piece size is {psize}')
+
+def calculate_piece_size(torr_file):
+    return torr_file.piece_size
+
+def read_tor_file(fname):
+    tor = torf.Torrent()
+    tor = tor.read(fname)
+    return tor
 
 if __name__ == "__main__":
     main()
