@@ -53,6 +53,21 @@ def distribute_tor_file(torr_file):
     riffle_broadcast(torr_file)
     return 0
 
+def distribute_tor_parts(torr_file):
+    if not os.path.isfile(torr_file):
+        print(f'The file {file} doesn\'t exist')
+        return -1
+    tor_parts = load_tor_parts(torr_file)
+    for part in tor_parts:
+        riffle_send_tor_part()
+    return 0
+
+def load_tor_parts(torr_file):
+    pass
+
+def riffle_send_tor_part():
+    pass
+
 def riffle_con():
     pass
 
