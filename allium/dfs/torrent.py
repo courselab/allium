@@ -45,6 +45,20 @@ def help():
 def calculate_piece_size(torr_file):
     return torr_file.piece_size
 
+def distribute_tor_file(torr_file):
+    if not os.path.isfile(torr_file):
+        print(f'The file {file} doesn\'t exist')
+        return -1
+    riffle_con()
+    riffle_broadcast(torr_file)
+    return 0
+
+def riffle_con():
+    pass
+
+def riffle_broadcast():
+    pass
+
 def read_tor_file(fname):
     tor = torf.Torrent()
     tor = tor.read(fname)
