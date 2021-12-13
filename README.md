@@ -41,3 +41,10 @@ An **encryption authentication** can verify the authenticity of an encrypted mes
 In Riffle we can use the Private Information Retrieval (PIR) method, so that users can access servers anonymously, obtaining information from the servers without the servers being notified of this access and what information we were looking for.
 
 The PIR can be used to solve problems on servers with small storage, borrowing all the information from the servers so that we can carry out a query without the server's knowledge, thus maintaining the privacy of a search.
+
+## Prototype flowchart
+
+The prototype flowchart is shown below. Different parts of a torrent file are present on different servers, then a user makes a request for the file, which will be sent using mixnet and PIR. 
+
+![flow](https://user-images.githubusercontent.com/32346104/145872582-997f76e5-5c4f-4a6d-8454-cdf2bbf4a800.jpg)
+###### Source: authors
