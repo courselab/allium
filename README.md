@@ -24,3 +24,7 @@ First, it is necessary to define the concepts of **Onion Routing** and **Mixnets
 ![MixNets representation](https://upload.wikimedia.org/wikipedia/commons/4/4f/Red_de_mezcla.png)
 
 One of the problems found in MixNet is that the receiver is not anonymous, and if one of the servers is malicious, the anonymity of the sender is also compromised. To solve this, the Riffle protocol was developed.
+
+## Private Information Retrieval (PIR)
+In Riffle we can use the Private Information Retrieval (PIR) method, so that users can access servers anonymously, obtaining information from the servers without the servers being notified of this access and what information we were looking for.
+The PIR can be used to solve problems on servers with small storage, borrowing all the information from the servers so that we can carry out a query without the server's knowledge, thus maintaining the privacy of a search.
