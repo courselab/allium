@@ -23,7 +23,7 @@ First, it is necessary to define the concepts of **Onion Routing** and **Mixnets
 
 ![MixNets representation](https://upload.wikimedia.org/wikipedia/commons/4/4f/Red_de_mezcla.png)
 
-One of the problems found in MixNet is that the receiver is not anonymous, and if one of the servers is malicious, the anonymity of the sender is also compromised. So, to solve this, the Riffle protocol was developed, with the intention of not forward messages if they have been altered by a compromised server. 
+One of the problems found in MixNet is that the receiver is not anonymous, and if one of the servers is malicious, the anonymity of the sender is also compromised. So, to solve this, the Riffle protocol was developed, with the intention of not forward messages if they have been altered by a compromised server [1]. 
 
 ## Private Information Retrieval (PIR)
 
