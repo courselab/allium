@@ -30,3 +30,8 @@ One of the problems found in MixNet is that the receiver is not anonymous, and i
 In Riffle we can use the Private Information Retrieval (PIR) method, so that users can access servers anonymously, obtaining information from the servers without the servers being notified of this access and what information we were looking for.
 
 The PIR can be used to solve problems on servers with small storage, borrowing all the information from the servers so that we can carry out a query without the server's knowledge, thus maintaining the privacy of a search.
+
+References
+----------
+
+[1] https://en.wikipedia.org/wiki/Riffle_(anonymity_network)
